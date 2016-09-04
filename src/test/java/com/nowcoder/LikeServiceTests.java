@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class LikeServiceTests {
     @Autowired
     LikeService likeService;
-
+    //单元测试
     @Before
     public void setUp() {
        System.out.println("setUp");
